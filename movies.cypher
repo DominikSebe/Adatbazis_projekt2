@@ -628,14 +628,6 @@ MERGE (Madonna)-[:ACTED_IN {roles:['"All the Way" Mae Mordabito']}]->(ALeagueofT
 MERGE (BillPax)-[:ACTED_IN {roles:['Bob Hinson']}]->(ALeagueofTheirOwn)
 MERGE (PennyM)-[:DIRECTED]->(ALeagueofTheirOwn);
 
-
-MATCH (CloudAtlas:Movie {title:'Cloud Atlas'})
-MATCH (TheReplacements:Movie {title:'The Replacements'})
-MATCH (Unforgiven:Movie {title:'Unforgiven'})
-MATCH (TheBirdcage:Movie {title:'The Birdcage'})
-MATCH (TheDaVinciCode:Movie {title:'The Da Vinci Code'})
-MATCH (JerryMaguire:Movie {title:'Jerry Maguire'})
-
 MERGE (PaulBlythe:Person {name:'Paul Blythe'})
 MERGE (AngelaScope:Person {name:'Angela Scope'})
 MERGE (JessicaThompson:Person {name:'Jessica Thompson'})
